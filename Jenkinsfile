@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_CREDENTIALS = '9c466563-3bac-40fc-b02c-21807090079c'  // Jenkins GitHub credentials ID
+        GIT_CREDENTIALS = 'kittu-github'  // Jenkins GitHub credentials ID
         DOCKER_IMAGE = 'sample-node-app:latest'
     }
 
