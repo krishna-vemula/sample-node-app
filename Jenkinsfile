@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git(
-                    url: 'https://github.com/username/git.git',
+                    url: 'https://github.com/krishna-vemula/sample-node-app.git',
                     credentialsId: "${GIT_CREDENTIALS}",
                     branch: 'main'
                 )
